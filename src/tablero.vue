@@ -10,7 +10,7 @@
       </div>
     </div>
 
-    <modal class="modal-success" name="content-modal-success">
+    <modal class="modal-success" name="content-modal-success" @before-close="beforeClose">
         <div>
             <h4>¡GANASTE!</h4>
             <h2>{{ msgResult }}</h2>
